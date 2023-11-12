@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs" value="name:i_id;datatype:int,name:i_text;datatype:string,name:i_level;datatype:int,name:i_level2;datatype:int,name:i_file;datatype:string" />
+</info>

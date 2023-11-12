@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>菜逼逼學前端</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #DCE6E3;
+}
+.style2 {color: #FFFFFF}
+-->
+
+
+
+
+ul{
+  list-style: none;
+}
+ul li::before{
+/*   可以自訂其他形狀 */
+  content: "\2022";
+/*   顏色 */
+  color: #FFFFFF;
+  font-weight: bold;
+/*   設定 display */
+  display: inline-block;
+/*  寬度  */
+  width: 1rem;
+/*  可以視情況調整形狀的距離  */
+  margin-left: -2rem;
+}
+
+
+
+
+
+
+
+
+/* 漸變、陰影、圓角 */
+.btn {
+  color: red;
+  border: 1px solid red;
+}
+.btn-bottom {
+  color: red;
+  border: none;
+  border-bottom: 1px solid red;
+}
+.btn-dashed {
+  color: #49734D;
+  border: 1px dashed #49734D;
+}
+.btn-radius {
+  color: #49734D;
+  border: 1px solid #49734D;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.btn-circle {
+  color: #49734D;
+  border: 1px solid #49734D;
+  width: 80px;
+  height: 80px;
+  border-radius: 2px 40px 2px 40px;
+/*   transition: height 0.1s, width 0.5s; */
+  transition: all 0.3s;
+}
+
+.btn-circle:hover {
+  background-image: linear-gradient(90deg, #FA748B 0%, #f5a623 100%);
+  color: #fff;
+  box-shadow: 0px 10px 5px -2px rgba(0,0,0,0.3);
+/*   width: 100px;
+  height: 100px; */
+  transform: scale(1.5);
+}
+
+.btn-shadow {
+  width: 80px;
+  height: 60px;
+  border: none;
+  box-shadow: 0px 10px 5px -2px rgba(0,0,0,0.3), 0px 1px 2px 3px rgba(0,0,0,0.3) inset;
+}
+
+.btn-rotate:hover {
+/*    transform: rotate(45deg); */
+/*    transform: translate(50px, 50px); */
+}
+
+.remove-btn {
+  border: none;
+  font-weight: bold;
+  font-size: 48px;
+  transition: transform 0.5s;
+}
+
+.style3 {
+	color: #49734D;
+	font-size: xx-large;
+	font-weight: bold;
+}
+.style4 {font-size: 50px}
+.style7 {font-size: 42px}
+
+
+
+ 
+ 
+#BoxText2 {
+border:2px gray dashed;
+padding:8px;
+width:800px;
+background-color:#fafafa;
+}
+.style9 {
+	font-size: xx-large;
+	color: #E54D28;
+}
+.style12 {color: #6D6D6D}
+</style>
+ 
+
+</head>
+
+<body>
+<table width="200" border="1" align="center" bordercolor="#FFFFFF">
+  <tr>
+    <td><table width="1200" height="1262" border="0">
+      <tr>
+        <td colspan="5" background="images/BBG.jpg" bgcolor="#6E9170">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="5" background="images/2.jpg" bgcolor="#DCE6E3"><img src="images/logo.png" width="161" height="120" /></td>
+      </tr>
+      <tr>
+        <td height="274" colspan="5"><div align="center"><img src="images/bg.png" width="100%" height="289" /></div></td>
+      </tr>
+      <tr>
+        <td width="250" height="818" valign="top" bgcolor="#30877E"><iframe src="left.html" width="100%" height="600" frameborder="0"> 您的瀏覽器不支援iframe，請升級 </iframe></td>
+        <td width="928" colspan="4" valign="top"><p align="center"> <a href="#t">
+            <button class="btn-dashed style3 style4">Q&amp;A</button>
+          </a>
+                <button class="btn-dashed style3 style7">聯絡我們</button>
+          <button class="btn-dashed style3 style7">VS Code 快捷鍵</button>
+        </p>
+            <hr />
+            <p align="center"> </p>
+          <div id="BoxText2">
+              <p><span class="style9"><a href="#" class="style3">熱門 Q&amp;A </a></span><br />
+              </p>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+          </div>
+          <p> </p>
+          <div id="BoxText2">
+              <p><span class="style9"><a href="#" class="style3">VS Code快捷鍵</a></span> </p>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+            <li> <span class="style12">灰色邊框為 2px 粗，虛線，內距為 6px，背景色為淺灰色。</span>
+                  <p></p>
+            </li>
+          </div>
+          <p></p></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

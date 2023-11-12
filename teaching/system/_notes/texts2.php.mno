@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:te_id;datatype:int,name:te_type;datatype:string,name:s_fck3;datatype:blob,name:s_fck1;datatype:string" />
+</info>

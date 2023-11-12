@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_vorder" value="name:s_order_num;datatype:string,name:s_btime;datatype:string,name:order_type;datatype:string,name:send_date;datatype:string,name:send_type;datatype:string" />
+</info>

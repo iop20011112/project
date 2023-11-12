@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs" value="name:pro_id;datatype:int,name:s_product;datatype:string,name:s_ps;datatype:string,name:s_money_old;datatype:string,name:s_money;datatype:string,name:s_text;datatype:string,name:s_file;datatype:string,name:s_prodnum;datatype:string,name:s_file2;datatype:string,name:s_pdf;datatype:string,name:s_item1;datatype:int,name:s_item2;datatype:int,name:s_pcb;datatype:string,name:s_salemail;datatype:string,name:s_text1;datatype:blob,name:s_text2;datatype:blob,name:s_text3;datatype:blob,name:s_text4;datatype:blob,name:pnew;datatype:string,name:pnew2;datatype:string,name:pnew3;datatype:string,name:s_level;datatype:int" />
+</info>

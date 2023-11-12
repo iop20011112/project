@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsps" value="name:s_product_ps_id;datatype:int,name:s_product_ps;datatype:string" />
+	<infoitem key="UD_rspp" value="name:i_id;datatype:int,name:i_text;datatype:string" />
+	<infoitem key="UD_rspp2" value="name:i2_id;datatype:int,name:i_id;datatype:int,name:i2_item;datatype:string" />
+</info>
